@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<script type="text/javascript">
+
+function login(f){
+	var c = confirm('Are You Login ...');
+	
+	if(c == true){
+		f.method = 'GET';
+		f.submit();
+	}
+	
+};
+
+
+</script>
+
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+
+<form action="a" method="GET">
+<fieldset>
+<legend>Employee Register</legend>
+ID <input type="text" name="nm">
+
+<br>
+
+PWD <input type="ps" name="nm">
+
+<br>
+
+<input type ="submit" value="LOGIN">
+
+<input type = "reset" value="RESET">
+
+ 
+
+
+TEXT <input type ="text" name="tx"><br>
+PASSWORD <input type="password" name="pwd"><br>
+Radio1 <input type="radio" name="g" value="m1">
+Radio2 <input type="radio" name="g" value="m2">
+
+
+<select name="car">
+	<option value="h">Hyndai</option>
+	<option value="k">Kia</option>
+	<option vlaue="s">SSang</option>
+</select>
+</fieldset>
+</form>
+
+File <input type="file" name="ff">
+
+
+
+<!-- 
+서버로 전송시키는 버튼 --> 
+<input type="submit" value="SUBMIT">
+
+
+
+
+</body>
+</html>
