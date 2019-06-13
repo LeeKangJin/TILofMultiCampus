@@ -155,7 +155,17 @@ RANGE<input type="range" min="1" max="10" name="range"><br>
 
 - 같은 구문이 있으면 마지막 설정이 적용이 됨. 
 
+- <https://www.w3schools.com/cssref/> css reference 
 
+- <https://www.highcharts.com/>  차트 css 제공 
+
+- CSS 파일을 만들어서 작성한 후 html에서 link
+
+  ```html
+  <link type="text/css" rel="stylesheet" href="a.css"
+  ```
+
+  
 
 a{} : a태그들 설정
 
@@ -178,5 +188,7 @@ a{} : a태그들 설정
 </style>
 ```
 
+a:hover -> a에 마우스를 대는 순간 적용
 
+a:nth-child(2n) -> 짝수번째 a에만 적용
 
