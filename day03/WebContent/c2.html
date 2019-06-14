@@ -2,53 +2,8 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<style type="text/css">
-	div{
-		border : 1px solid black;
-	}
-	
-	#div1 > h3{
-		color: red;
-	}
-	
-	#div2 > h3{
-		color:blue;
-	}
-	
-	#div2 > div> h3 {
-		color: green;
-	}
-	
-	a{
-		text-decoration : none;
-		
-	}
-	
-	input:hover{
-	background: gray;
-	border:1px solid black;
-}
-	a:hover{
-	
-		background:blue;
-		color:yellow;
-		
-	
-	
-	}
-	
-	h3:nth-child(2n){
-		color:red;
-	}
-	h3:nth-child(2n+1){
-		color:blue;
-	}
-	
-	/* 아랫 layer를 찾을 때 >  */
-	
-	
+<link href="c3.css" rel="stylesheet" type = "text/css">
 
-</style>
 <title>Insert title here</title>
 </head>
 <body>
@@ -62,14 +17,15 @@
 
 <a href="#">Click</a>
 <input type="text">
-<h3>Header</h3>
-<h3>Header</h3>
-<h3>Header</h3>
-<h3>Header</h3>
-<h3>Header</h3>
-<h3>Header</h3>
-<h3>Header</h3>
-
+<div>
+	<h3>Header</h3>
+	<h3>Header</h3>
+	<h3>Header</h3>
+	<h3>Header</h3>
+	<h3>Header</h3>
+	<h3>Header</h3>
+	<h3>Header</h3>
+</div>
 <div id="div2">
 
 <div>

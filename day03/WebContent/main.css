@@ -1,0 +1,47 @@
+@charset "EUC-KR";
+
+
+table {
+	margin: 10px auto;
+	border: 2px solid gray;
+	width: 500px;
+}
+
+tr:hover {
+	background: red;
+}
+
+.t1>tbody>tr:nth-child(2n) {
+	background-color: blue;
+}
+.t1>tbody>tr:nth-child(2n):hover {
+	background-color: red;
+}
+
+.t1>tbody>tr:nth-child(2n+1) {
+	background: red;
+}
+.t1>tbody>tr:nth-child(2n+1):hover {
+	background: blue;
+}
+
+
+.td1 {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.td2 {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.td3 {
+	text-align: left;
+	margin: 0 auto;
+}
+
+.td4 {
+	text-align: right;
+	margin: 0 auto;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<style>
+/* Global CSS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+header, section, footer {
+	margin: 0 auto;
+}
+
+/* Header CSS */
+header {
+	width: 800px;
+	height: 150px;
+	background: pink;
+	position: relative;
+}
+
+header>#top_nav {
+	position: absolute;
+	height: 30px;
+	width: 200px;
+	right: 1px;
+	top: 1px;
+	font-size: 0.6em;
+}
+
+header>hgroup {
+	height: 80px;
+	padding-top: 30px;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+header>#main_nav {
+	width: 400px;
+	margin: 0 auto;
+	height: 40px;
+	font-size: 1.3em;
+}
+
+header>#top_nav>ul>li {
+	float: left;
+	margin: 0 5px;
+}
+
+header>#main_nav>ul>li {
+	float: left;
+	margin: 0 20px;
+}
+/* Section CSS */
+section {
+	width: 800px;
+	height: 500px;
+	background: gray;
+}
+
+#left_aside {
+	float: left;
+	width: 150px;
+	height: 500px;
+	background: green;
+}
+
+#center_aside {
+	float: left;
+	width: 550px;
+	height: 500px;
+	background: white;
+}
+
+#right_aside {
+	float: left;
+	width: 100px;
+	height: 500px;
+	background: gray;
+}
+
+#right_aside>img {
+	margin: 5px 10px;
+}
+/* Footer CSS */
+footer {
+	width: 800px;
+	height: 50px;
+	background: black;
+}
+
+#center_table {
+	border: 1px solid red;
+	width: 550px;
+	height: 500px;
+}
+
+.bt>a {
+	
+	font-weight: bold;
+	line-height:20px; /* 글자의높이와 height 높이를 동일 하게맞춰주어야함 !! */
+	opacity: 0.9;
+	display: block;
+	width: 80px;
+	height: 20px;
+	/* inline을 block으로바꿈,inline은 배치 하기가 어려움  */
+	border: 15px solid black;
+	border-radius:30px;
+    margin: 40px auto;
+    background: red;
+	box-shadow:5px 5px 5px black;
+	color: white;
+	 
+
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+	<header>
+		<nav id="top_nav">
+			<ul>
+				<li><a href="">LOGIN</a></li>
+				<li><a href="">REGISTER</a></li>
+				<li><a href="">ABOUT US</a></li>
+				<li><a href="">MAP</a></li>
+			</ul>
+		</nav>
+		<hgroup>
+			<h1>영화 평점 사이트</h1>
+		</hgroup>
+		<nav id="main_nav">
+			<ul>
+				<li><a href="">분류별</a></li>
+				<li><a href="">나라별</a></li>
+				<li><a href="">검색</a></li>
+				<li><a href="">기타</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<section>
+		<aside id="left_aside">
+
+			<div class="bt">
+
+				<a href="">Click1</a>
+			</div>
+			<div class="bt">
+				<a href="">Click2</a>
+
+			</div>
+			<div class="bt">
+
+				<a href="">Click3</a>
+
+
+			</div>
+			<div class="bt">
+
+				<a href="">Click4</a>
+
+
+			</div>
+
+		</aside>
+		<aside id="center_aside">
+			<table id="center_table">
+				<thead>
+					<tr>
+						<td>영화1</td>
+						<td>영화2</td>
+						<td>영화3</td>
+					</tr>
+				</thead>
+				<tbody>
+
+					<tr>
+						<td><img src="img/1.jpg" width="125" height="200"><br>
+							영화 평점 9</td>
+						<td><img src="img/2.jpg" width="125" height="200"><br>
+							영화 평점 8</td>
+						</td>
+						<td><img src="img/3.jpg" width="125" height="200"><br>
+							영화 평점 7</td>
+						</td>
+					</tr>
+
+
+					<tr>
+						<td><img src="img/4.jpg" width="125" height="200"><br>
+							영화 평점 9</td>
+						</td>
+						<td><img src="img/5.jpg" width="125" height="200"><br>
+							영화 평점 8</td>
+						</td>
+						<td><img src="img/6.jpg" width="125" height="200"><br>
+							영화 평점 8</td>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+		</aside>
+		<aside id="right_aside">
+			<img src="https://via.placeholder.com/80x150"> <img
+				src="https://via.placeholder.com/80x150"> <img
+				src="https://via.placeholder.com/80x150">
+		</aside>
+	</section>
+
+
+
+	<footer></footer>
+</body>
+</html>
+
+

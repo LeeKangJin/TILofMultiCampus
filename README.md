@@ -161,6 +161,8 @@ RANGE<input type="range" min="1" max="10" name="range"><br>
 
 - CSS 파일을 만들어서 작성한 후 html에서 link
 
+- https://www.fonts.google.com 폰트 제공
+
   ```html
   <link type="text/css" rel="stylesheet" href="a.css"
   ```
@@ -172,6 +174,8 @@ a{} : a태그들 설정
 \*{} -> 전체 설정
 
 #a{} => a id 설정
+
+.a{} : a클래스들 설정
 
 ```html
 <style>
@@ -185,6 +189,10 @@ a{} : a태그들 설정
     #a{
         color:black;
     }
+    .a{
+        color:blakc;
+        
+    }
 </style>
 ```
 
@@ -192,3 +200,28 @@ a:hover -> a에 마우스를 대는 순간 적용
 
 a:nth-child(2n) -> 짝수번째 a에만 적용
 
+
+
+text-align: text의 위치 적용
+
+font-familly : '이것 사용', 없으면 이것 사용;
+
+line-height : 공백을 만들어서 높이를 키운다. 
+
+(center 를 맞출 때 공백을 이용해야 할 필요가 있음. )
+
+```css
+h3{
+   	text-align:center;
+    font-familly : 'Sigmar One', cursive;
+    font-size : 150%
+    line-height: 100px;
+    border:1px solid black;
+}
+```
+
+margin : 바깥쪽 여백 사이즈 ( 50px 0 100px 20px )-> 상 좌 하 우 
+
+padding : 안쪽 여백 사이즈 (너무 크게 하면 바깥까지 변형될수도)
+
+display :block  -> block내부에 block으로 맞춤. 

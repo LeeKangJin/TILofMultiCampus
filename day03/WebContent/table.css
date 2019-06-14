@@ -1,0 +1,20 @@
+@charset "EUC-KR";
+
+
+.b1{
+	
+	color : balack;
+	background : red;
+	
+	font-size : 50px;
+	box-shadow :20px 10px 5px #6666666;
+	
+	margin-right: 50px;
+	
+}
+.b1:hover{
+	
+	background : blue;
+	
+	
+}
